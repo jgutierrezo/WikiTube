@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/SearchBar.css';
-//MaterialUI lib to use the search icon
-import SearchIcon from '@mui/icons-material/Search';
+
 
 class SearchBar extends React.Component {
     state = { searchCriteria: '' };
