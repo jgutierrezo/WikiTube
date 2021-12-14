@@ -1,0 +1,29 @@
+.navigationBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 57, 57);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+li {
+    /*So the links appear horizontaly*/
+    float: left;
+}
+ 
+li a {
+   /*So we can  treat each element as a block. Without this the black bar would be had less height*/
+   display: block;
+   /*So the text of each element is white*/
+   color: white;
+   /*To have the dimentions of the black navigation bar, and the distance between elements*/
+   padding: 14px 16px;
+}
+
+li:hover {
+    background-color: rgb(0, 0, 0);
+  }

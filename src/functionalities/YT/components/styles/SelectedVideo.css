@@ -1,0 +1,19 @@
+.boxMainVideo{
+    /*Show a white box bellow the selected video*/
+    background-color: white;  
+    /*Padding of the white box content*/
+    padding: 10px;
+
+}
+
+iframe{
+    border: none;
+    width: 100%;
+    height: 65vh; 
+    
+
+}
+
+.divIFrame{
+    height: 100%;
+}

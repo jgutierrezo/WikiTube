@@ -1,0 +1,22 @@
+
+
+.searchInputs{
+  margin-top: 4%;
+  margin-bottom: 26px;
+  display: block;
+}
+
+
+.inputSearchYT{
+  display: block;
+  border: 0;
+  height: 45px;
+  width: 80%;
+  align-self: center;
+  padding: 10px;
+  margin: auto;
+  /*So the YT search bar always have a specified distance from the navbar*/
+  margin-top: 60px;
+  
+}
+

@@ -1,0 +1,25 @@
+.video{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+
+.video.item {
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+.video.item img{
+    /*max-width: 180px;*/
+    height: 19vh;
+    width: 26vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.headerVideo{
+    width: 100%;
+    margin-left: 2%;
+}
+

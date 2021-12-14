@@ -1,0 +1,78 @@
+
+
+.searchBar {
+    padding-bottom: 25px;
+}
+
+
+
+.wikiPage{
+    /*Separation from borders */
+    /*When one value is specified, it applies the same padding to all four sides*/
+    padding: 20px; 
+    height: 100%;
+}
+
+input {
+    width: 100%;
+    /*When two values are specified, the first padding applies to the top and bottom, the second to the left and right.*/
+    padding: 12px 20px;
+    /*Distance between near elements elements. In this case with the title 'Enter search term'*/
+    margin: 8px 0;
+    /*Style of the border*/
+    border: 1px solid #ccc;
+  }
+
+  label {
+    font-weight: bolder;
+  }
+
+
+
+  .header {
+    font-weight: 1000;
+    padding-top: 10px;
+  }
+
+  .description{
+    padding-left: 0%;
+  }
+
+
+  .link {
+    float: right;
+    /*Center height*/
+    padding-top: 10px;
+    padding-right: 18px;
+  }
+
+  .elementsList{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .wikiSearchBarLabel{
+    display: block;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    /*So the wiki search bar always have a specified distance from the navbar*/
+    margin-top: 45px;
+  }
+
+  .wikiSearchBar{
+    display: block;
+    border: 0;
+    height: 50%;
+    width: 99%;
+    margin-top: 15px;
+    align-self: center;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .wikiItem {
+    border-top: 1px solid #ccc;
+    padding-bottom: 1%;
+  
+  }
