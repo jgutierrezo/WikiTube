@@ -26,6 +26,8 @@ const WikipSearchList = () => {
 
         };
 
+        //To call Wikipedia API with the default query
+        //This happens because just when the App is first render we do not have results
         if(search && !results.length){
             callWikiApi();
         }else{
