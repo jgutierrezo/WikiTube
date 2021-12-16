@@ -5,12 +5,8 @@ import './styles/SearchBar.css';
 class SearchBar extends React.Component {
     state = { searchCriteria: '' };
 
-    onInputChange = (event) => {
-        this.setState({ term: event.target.value });
-    };
-
-
     onSubmit = event => {
+        //So the application do not get refreshed after the user press enter on the search-bar. If the application is refreshed, the search-bar would appear empty again.
         event.preventDefault();
         //Call the callback function that makes request to the YT API
         this.props.searchVideo(this.state.searchCriteria);
@@ -27,7 +23,7 @@ class SearchBar extends React.Component {
                             type="text"
                             value={this.state.searchCriteria}
                             placeholder="What are you looking for?"
-                            onChange={e => this.setState({ searchCriteria: e.target.value })}
+                            onChange={e => this.setState({ searchCriteria: e.target.value })} 
                         />
 
                     </div>

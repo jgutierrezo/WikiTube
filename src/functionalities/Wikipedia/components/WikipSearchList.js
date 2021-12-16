@@ -8,7 +8,7 @@ const WikipSearchList = () => {
     const [search, setSearch] = useState('Turtle');
     const [results, setResults] = useState([]);
 
-
+    //This method will be called every time the search useState variable changes its value. Also, when it is initialized. 
     useEffect(() => {
 
         const callWikiApi = async () => {
@@ -43,12 +43,6 @@ const WikipSearchList = () => {
                 clearTimeout(currentTimeout)
             };
         }
-
-
-            
-        
-
-
     }, [search]);
 
 
