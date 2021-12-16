@@ -1,4 +1,3 @@
-import Link from "./Link";
 import React from "react";
 import "./styles/Header.css";
 
