@@ -7,6 +7,12 @@ WikiTube is a web application that offers a simpler version of doing YouTube and
 Deployed App:
 https://no-distractions.netlify.app/
 
+
+
+https://user-images.githubusercontent.com/61996882/213001963-1d986b18-7a40-442c-a506-13e749446b31.mov
+
+
+
 ## Features
 
 - [x] Youtube videos
